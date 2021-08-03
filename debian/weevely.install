@@ -1,0 +1,6 @@
+core usr/share/weevely/
+modules usr/share/weevely/
+utils usr/share/weevely/
+bd usr/share/weevely/
+weevely.py usr/share/weevely/
+debian/helper-script/* usr/bin/

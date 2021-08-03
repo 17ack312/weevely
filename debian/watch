@@ -1,0 +1,4 @@
+version=3
+opts="filenamemangle=s/.*\/v?(\d\S*).tar.gz/weevely-$1.tar.gz/" \
+https://github.com/epinna/weevely3/releases .*/v?(\d\S*)\.tar\.gz
+

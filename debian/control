@@ -1,0 +1,20 @@
+Source: weevely
+Section: utils
+Priority: extra
+Maintainer: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/epinna/weevely3/
+Vcs-Git: git://git.kali.org/packages/weevely.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/weevely.git;a=summary
+
+Package: weevely
+Architecture: all
+Depends: ${misc:Depends}, python, python-yaml, python-prettytable, python-mako,
+ python-socks, python-dateutil
+Description: Stealth tiny web shell
+ Weevely is a stealth PHP web shell that simulate telnet-like 
+ connection. It is an essential tool for web application post 
+ exploitation, and can be used as stealth backdoor or as a 
+ web shell to manage legit web accounts, even free hosted 
+ ones.

@@ -1,0 +1,46 @@
+weevely (3.2.0-0kali3) kali-dev; urgency=medium
+
+  * Replace depends on python-pysocks by python-socks
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 12 Jan 2016 11:38:42 +0100
+
+weevely (3.2.0-0kali2) kali-dev; urgency=medium
+
+  * Drop patch (fix-sys-dir) and replace it by a helper-script
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 24 Jul 2015 09:16:16 +0200
+
+weevely (3.2.0-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+  * Refresh patch
+  * Add depends on python-prettytable, python-mako, python-pysocks, 
+    python-dateutil
+  * Change Homepage: https://github.com/epinna/weevely3 (instead of
+    https://github.com/epinna/Weevely/)
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 23 Jul 2015 16:25:42 +0200
+
+weevely (1.1-1kali0) kali; urgency=low
+
+  * Update from git
+
+ -- Emanuele Acri <crossbower@kali.org>  Thu, 23 Jan 2014 16:02:32 +0100
+
+weevely (1.0-1kali2) kali; urgency=low
+
+  * Updated watch file
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 12 Jan 2014 17:41:12 -0500
+
+weevely (1.0-1kali1) kali; urgency=low
+
+  * Remove desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 13:50:48 -0500
+
+weevely (1.0-1kali0) kali; urgency=low
+
+  * Initial release 
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 11 Dec 2012 11:33:15 -0700
